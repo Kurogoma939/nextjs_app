@@ -1,23 +1,18 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import React from 'react'
-import Post from './post'
+import Header from '../components/header';
+import Hero from '../components/hero';
+import Footer from '../components/footer';
 
 export default function Home() {
   const subtitle = 'アウトプットするサイト';
 
   return (
     <>
-      <header>Header</header>
+      <Header />
       <main>
-        <div>
-          <h1>Cube</h1>
-          <p>{subtitle}</p>
-          <Post />
-        </div>
+        <Hero />
       </main>
-      <footer>Footer</footer>
+      <Footer />
     </>
   )
 }
