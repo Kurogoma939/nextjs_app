@@ -5,10 +5,15 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div className='hero'>
-      <h1 style={{ color: 'red', fontSize: '80px' }}>CUBE</h1>
-      <hr />
-      <p>アウトプットするサイト</p>
-    </div>
+    <>
+      <header>Header</header>
+      <main>
+        <div>
+          <h1>Cube</h1>
+          <p>アウトプットするサイト</p>
+        </div>
+      </main>
+      <footer>Footer</footer>
+    </>
   )
 }
