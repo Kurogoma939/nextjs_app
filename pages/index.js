@@ -5,9 +5,10 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <>
+    <div className='hero'>
       <h1>CUBE</h1>
+      <hr />
       <p>アウトプットするサイト</p>
-    </>
+    </div>
   )
 }
