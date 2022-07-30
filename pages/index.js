@@ -6,7 +6,7 @@ import React from 'react'
 export default function Home() {
   return (
     <div className='hero'>
-      <h1>CUBE</h1>
+      <h1 style={{ color: 'red', fontSize: '80px' }}>CUBE</h1>
       <hr />
       <p>アウトプットするサイト</p>
     </div>
