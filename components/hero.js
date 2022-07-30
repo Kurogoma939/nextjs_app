@@ -1,8 +1,8 @@
-export default function Hero() {
+export default function Hero({ title, subtitle }) {
     return (
         <header>
-            <h1>Cube</h1>
-            <p>アウトプットするサイト</p>
+            <h1>{title}</h1>
+            <p>{subtitle}</p>
         </header>
     )
 }
